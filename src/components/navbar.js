@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { Context } from "../store/context";
 
 
-const NavBar = () => {
+const Navbar = () => {
   const { store, actions } = useContext(Context);
 
   return (
@@ -27,7 +27,7 @@ const NavBar = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <i className="bi bi-star"></i> Favorites
+                <i className="bi bi-star"></i> Favorite Pokemons
                 <span className="badge bg-danger ms-2">
                   {store.favorite.length}
                 </span>
@@ -72,4 +72,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;

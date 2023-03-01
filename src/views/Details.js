@@ -5,7 +5,7 @@ import Target from '../components/target';
 
 
 
-const Profile = () => {
+const Details = () => {
     const { id } = useParams();
     const [pokemon, setPokemon] = useState(null);
 
@@ -50,4 +50,4 @@ const Profile = () => {
     );
 };
 
-export default Profile;
+export default Details;
