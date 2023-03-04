@@ -60,7 +60,6 @@ const Target = (props) => {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
